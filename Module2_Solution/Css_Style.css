@@ -1,0 +1,183 @@
+/**************BASE STYLING***************/
+	*{
+		box-sizing: border-box;
+		
+	}
+	body{
+		margin:0px;
+		padding:0px;
+	}
+	header{
+		font-size:175%;
+		font-weight: bold;
+		text-align: center;
+		font-family: arial ;
+		margin-bottom: 10px;
+		margin-top:10px;
+	}
+	section{
+		width:100%;
+	}
+	.items{
+		border:2px black solid;
+		background-color:#C0C0C0;
+		color:black;
+		margin:15px;
+		font-weight: bold;
+		margin-bottom:0px;
+		
+	}
+	.Name{
+		border:2px black solid;
+		position: relative;
+		background-color: red;
+		float:right;
+		width:120px;
+		height:30px;
+		text-align: center;
+		font-size:125%;
+	}
+	p{
+		padding:10px;
+		padding-bottom: 0px;
+	}
+	.clr1{
+		background-color: #FF9999;
+	}
+	.clr2{
+		background-color: #990000;
+		color:white;
+	}
+	.clr3{
+		background-color: #FFFFCC;
+	}
+	/*******Media query for desktops********/
+		@media(min-width: 992px){
+			.dsk1,.dsk2,.dsk3,.dsk4,.dks5,.dsk6,.dks7,.dks8,.dks9,.dks10,.dks11,.dsk12{
+			border:1px hidden green;
+				float:left;
+			}
+			.dsk1 {
+			    width: 8.33%;
+			  }
+			  .dsk2 {
+			    width: 16.66%;
+			  }
+			  .dsk3 {
+			    width: 25%;
+			  }
+			  .dsk4 {
+			    width: 33.33%;
+			  }
+			  .dsk5 {
+			    width: 41.66%;
+			  }
+			  .dsk6 {
+			    width: 50%;
+			  }
+			  .dsk7 {
+			    width: 58.33%;
+			  }
+			  .dsk8 {
+			    width: 66.66%;
+			  }
+			  .dsk9 {
+			    width: 74.99%;
+			  }
+			  .dsk10 {
+			    width: 83.33%;
+			  }
+			  .dsk11 {
+			    width: 91.66%;
+			  }
+			  .dsk12 {
+			    width: 100%;
+			  }
+			
+		}
+		/************Media Query for Tablets************/
+		@media(min-width: 768px) and (max-width: 991px){
+			.tab1,.tab2,.tab3,.tab4,.tab5,.tab6,.tab7,.tab8,.tab9,.tab10,.tab11,.tab12{
+				border:1px hidden green;
+				float:left;
+			}
+			.tab1 {
+			    width: 8.33%;
+			  }
+			  .tab2 {
+			    width: 16.66%;
+			  }
+			  .tab3 {
+			    width: 25%;
+			  }
+			  .tab4 {
+			    width: 33.33%;
+			  }
+			  .tab5 {
+			    width: 41.66%;
+			  }
+			  .tab6 {
+			    width: 50%;
+			  }
+			  .tab7 {
+			    width: 58.33%;
+			  }
+			  .tab8 {
+			    width: 66.66%;
+			  }
+			  .tab9 {
+			    width: 74.99%;
+			  }
+			  .tab10 {
+			    width: 83.33%;
+			  }
+			  .tab11 {
+			    width: 91.66%;
+			  }
+			  .tab12 {
+			    width: 100%;
+			  }
+		}
+		/*********Media Query For Mobile Version*******/
+		@media(max-width:767px){
+			.mob1,.mob2,.mob3,.mob4,.mob5,.mob6,.mob7,.mob8,.mob9,.mob10,.mob11,.mob12{
+				border:1px hidden green;
+				float:left;
+			}
+			.mob1 {
+			    width: 8.33%;
+			  }
+			  .mob2 {
+			    width: 16.66%;
+			  }
+			  .mob3 {
+			    width: 25%;
+			  }
+			  .mob4 {
+			    width: 33.33%;
+			  }
+			  .mob5 {
+			    width: 41.66%;
+			  }
+			  .mob6 {
+			    width: 50%;
+			  }
+			  .mob7 {
+			    width: 58.33%;
+			  }
+			  .mob8 {
+			    width: 66.66%;
+			  }
+			  .mob9 {
+			    width: 74.99%;
+			  }
+			  .mob10 {
+			    width: 83.33%;
+			  }
+			  .mob11 {
+			    width: 91.66%;
+			  }
+			  .mob12 {
+			    width: 100%;
+			  }
+		}
