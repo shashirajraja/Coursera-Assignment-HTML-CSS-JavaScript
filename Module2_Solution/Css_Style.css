@@ -22,13 +22,13 @@
 		border:1px black solid;
 		background-color:#C0C0C0;
 		color:black;
-		margin:15px;
+		margin:25px;
 		font-weight: bold;
 		margin-bottom:0px;
 		
 	}
 	.Name{
-		border:2px black solid;
+		border:1px black solid;
 		position: relative;
 		background-color: red;
 		float:right;
